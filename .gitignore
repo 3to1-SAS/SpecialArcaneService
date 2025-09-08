@@ -74,5 +74,3 @@ Plugins/**/Intermediate/*
 # Cache files for the editor to use
 DerivedDataCache/*
 
-EditorPerProjectUserSettings.ini
-UnrealProject/SpecialArcaneService/Saved/Config/MacEditor/EditorPerProjectUserSettings.ini
