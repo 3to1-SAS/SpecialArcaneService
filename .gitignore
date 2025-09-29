@@ -76,3 +76,4 @@ DerivedDataCache/*
 
 *.DS_Store
 UnrealProject/
+.DS_Store
