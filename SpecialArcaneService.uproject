@@ -3,6 +3,16 @@
 	"EngineAssociation": "{B8AB3D3F-AB4C-5E79-926F-4AB76D8B5F05}",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "SpecialArcaneService",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "ModelingToolsEditorMode",
