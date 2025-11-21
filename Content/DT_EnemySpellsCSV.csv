@@ -1,0 +1,5 @@
+---,Damage,Lifespan,Enum,Class
+BetaSpell,"300.000000","3.000000","DemoSpell","/Script/Engine.BlueprintGeneratedClass'/Game/Enemies/DemoEnemy/BP_DemoEnemyAttack.BP_DemoEnemyAttack_C'"
+ArcaneSpell,"600.000000","4.000000","ArcaneSpell","/Script/Engine.BlueprintGeneratedClass'/Game/Enemies/Arcane/BP_ArcaneAttack.BP_ArcaneAttack_C'"
+KnightAttack,"300.000000","0.500000","DemoSpell","/Script/Engine.BlueprintGeneratedClass'/Game/Enemies/Knight/BP_KnightHitbox.BP_KnightHitbox_C'"
+FlyingImpAttack,"900.000000","5.000000","FlyingImpSpell","/Script/Engine.BlueprintGeneratedClass'/Game/Enemies/FlyingImp/BP_FlyingImpAttack.BP_FlyingImpAttack_C'"
