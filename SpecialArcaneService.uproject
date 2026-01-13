@@ -1,8 +1,18 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "{68A73971-2D46-A9A5-A836-AFBB6A380E05}",
+	"EngineAssociation": "{879797FB-1C4C-C2FD-05A5-43AC5A320576}",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "SpecialArcaneService",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "ModelingToolsEditorMode",
