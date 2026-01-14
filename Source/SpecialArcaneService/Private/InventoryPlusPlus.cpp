@@ -13,6 +13,14 @@ void UInventoryPlusPlus::BeginPlay() {
     
 }
 
+void UInventoryPlusPlus::AddItem(short where) {
+    return;
+}
+
+void UInventoryPlusPlus::DeleteItem(short index) {
+    return;
+}
+
 /*
 // Called every frame
 void UInventoryPlusPlus::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)

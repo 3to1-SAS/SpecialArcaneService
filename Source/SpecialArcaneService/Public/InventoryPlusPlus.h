@@ -5,11 +5,14 @@
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
 #include "GameFramework/Actor.h"
-#include "Blueprint/UserWidget.h"
-#include "InventoryPlusPlus.generated.h"
+//#include "Blueprint/UserWidget.h"
 #include <vector>
 #include <unordered_map>
+#include "InventoryPlusPlus.generated.h"
+
 // typedefs
+
+typedef unsigned short Uint16;
 
 typedef struct {
     int x, y;
