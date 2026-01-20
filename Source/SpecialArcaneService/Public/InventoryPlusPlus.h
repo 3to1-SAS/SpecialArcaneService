@@ -15,12 +15,12 @@
 typedef unsigned short Uint16;
 
 typedef struct {
-    int x, y;
-} Positional;
+    Uint16 x, y;
+} GridPosition;
 
 typedef struct {
     Positional pos;
-    AActor* type;
+    AActor type;
     short index;
     Uint16 quantity;
 } Item;
@@ -38,7 +38,7 @@ public:
     // virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
     virtual void AddItem(short where);
     virtual void DeleteItem(short index);
-    
+    virtual void DropItem(short index);
     virtual void PickupItem(AActor* actor);
     
 protected:
