@@ -11,6 +11,8 @@ UInventoryPlusPlus::UInventoryPlusPlus() {
 void UInventoryPlusPlus::BeginPlay() {
 	Super::BeginPlay();
     
+    Cast<> UGameplayStatistics::LoadGameFromSlot(TEXT("UserSaveData"), 0);
+    
 }
 
 void UInventoryPlusPlus::AddItem(short where) {
@@ -19,6 +21,10 @@ void UInventoryPlusPlus::AddItem(short where) {
 
 void UInventoryPlusPlus::DeleteItem(short index) {
     return;
+}
+
+void UInventoryPlusPlus::PickupItem(AActor* actor) {
+    
 }
 
 /*

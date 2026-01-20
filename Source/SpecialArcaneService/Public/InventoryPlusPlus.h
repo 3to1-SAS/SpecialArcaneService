@@ -5,7 +5,7 @@
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
 #include "GameFramework/Actor.h"
-//#include "Blueprint/UserWidget.h"
+#include "Blueprint/UserWidget.h"
 #include <vector>
 #include <unordered_map>
 #include "InventoryPlusPlus.generated.h"
@@ -38,6 +38,8 @@ public:
     // virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
     virtual void AddItem(short where);
     virtual void DeleteItem(short index);
+    
+    virtual void PickupItem(AActor* actor);
     
 protected:
 	virtual void BeginPlay() override;
