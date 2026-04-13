@@ -15,5 +15,7 @@ class SPECIALARCANESERVICE_API UMeshTransition : public UBlueprintFunctionLibrar
 	GENERATED_BODY()
 public:
     UFUNCTION(BlueprintCallable, Category = "UMeshTransition")
-    static TArray<int32> ATriangleIndices(UStaticMeshComponent* MeshComponent, int32 MaterialSlotIndex, int32 LODIndex);
+    static int32 GetCurrentLODIndex(USkeletalMeshComponent* SkeletalMeshComponent);
+    UFUNCTION(BlueprintCallable, Category = "UMeshTransition")
+    static TArray<int32> TriangleIndices(UMeshComponent* MeshComponent, int32 MaterialSlotIndex, int32 LODIndex);
 };
